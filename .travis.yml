@@ -8,4 +8,4 @@ script:
   - npm test
   - make build
 after_success:
-  - echo $TRAVIS_TEST_RESULT
+  - env
